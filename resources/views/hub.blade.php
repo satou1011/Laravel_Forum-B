@@ -1,4 +1,7 @@
 <x-app-layout>
+	<?php	
+	session_start();
+	?>
 	<x-slot name="header">
 		<h2 class="font-semibold text-xl text-gray-800 leading-tight">
 			{{__('Forum Hub')}}
@@ -30,9 +33,12 @@
 						</div>
 						<button id="create_threadBtn" class="btn btn-primary">{{__('Create new thread')}}</button>
 					</form>
-
-					<br><br>
 					
+					<button id="sort_created_at_asc" class="btn btn-dark" >{{__('Sortby created_at asc')}}</button>
+					<button id="sort_id_asc" class="btn btn-dark" >{{__('Sortby id asc')}}</button>
+					<button id="sort_likes_asc" class="btn btn-dark" >{{__('Sortby likes asc')}}</button>
+					<br>
+					<br>
 					<div>
 						<table class="table table-striped">
 							<thead>
@@ -73,3 +79,5 @@
 		</div>
 	</div>
 </x-app-layout>
+
+

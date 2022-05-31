@@ -627,5 +627,8 @@
     "Password register notice": "：大学アカウントのパスワードでは登録しないでください",
     "Password login notice": "：大学アカウントのパスワードを入力しないでください",
     "Registration notice": "この登録情報が流出しても責任はとりません（とれません）",
-    "Access number": "閲覧回数"
+    "Access number": "閲覧回数",
+    "Sortby created_at asc": "作成日時順",
+    "Sortby id asc":"閲覧数順",
+    "Sortby likes asc":"いいね数順"
 }
