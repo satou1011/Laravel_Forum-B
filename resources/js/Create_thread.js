@@ -22,3 +22,5 @@ $('#create_threadBtn').click(function () {
 		console.log(errorThrown.message);
 	});
 })
+
+

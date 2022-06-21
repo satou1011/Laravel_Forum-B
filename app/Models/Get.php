@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 class Get extends Model {
 	public function showTables() {
-		switch($_SESSION["sort"]='2'){
+		switch($_SESSION["sort"]='1'){
 			case'1':
 				$sql = <<<EOF
 		SELECT
@@ -31,7 +31,7 @@ class Get extends Model {
 			ON
 				hub.thread_id = access_logs.thread_id
 			GROUP BY hub.thread_id 
-			ORDER BY COUNT(hub.thread_id) DESC,
+			ORDER BY COUNT(access_logs.access_log) DESC,
 			hub.created_at DESC;
 			EOF;
 			break;

@@ -33,7 +33,6 @@
 						</div>
 						<button id="create_threadBtn" class="btn btn-primary">{{__('Create new thread')}}</button>
 					</form>
-					
 					<button id="sort_created_at_asc" class="btn btn-dark" >{{__('Sortby created_at asc')}}</button>
 					<button id="sort_id_asc" class="btn btn-dark" >{{__('Sortby id asc')}}</button>
 					<button id="sort_likes_asc" class="btn btn-dark" >{{__('Sortby likes asc')}}</button>
@@ -60,7 +59,7 @@
 					integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 					crossorigin="anonymous"
 					></script>
-
+					
 					<!-- jQuery -->
 					<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 
